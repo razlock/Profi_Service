@@ -6,7 +6,7 @@
 
 ### Скачать
 
-- [NikaCRM-Offline-Setup-1.0.6-x64.exe](https://github.com/nika-sc/Nika-Service-CRM/releases/download/windows-setup-1.0.6/NikaCRM-Offline-Setup-1.0.6-x64.exe)
+- [NikaCRM-Offline-Setup-1.0.6-x64.exe](https://github.com/nika-sc/Profi-Service-CRM/releases/download/windows-setup-1.0.6/NikaCRM-Offline-Setup-1.0.6-x64.exe)
 - Зеркало: https://service.nika-crm.ru/downloads/NikaCRM-Offline-Setup-1.0.6-x64.exe
 
 SHA256: `FA029F7CC5B53AA2C7CFD39C13539280A6CD654AA0BB1674AD6394F8D0A67387`

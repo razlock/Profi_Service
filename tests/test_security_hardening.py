@@ -1,4 +1,4 @@
-"""Defensive security checks for Nika Service CRM (no exploit payloads, no live WORK)."""
+"""Defensive security checks for Profi Service CRM (no exploit payloads, no live WORK)."""
 import inspect
 import json
 import os

@@ -20,7 +20,7 @@ _POSTS = [
         "slug": "security-api-access",
         "file": "blog/44-security-api-access.md",
         "date": "2026-09-12 22:50",
-        "title": "Обновили систему безопасности — Nika Service CRM",
+        "title": "Обновили систему безопасности — Profi Service CRM",
         "description": (
             "12 сентября 2026: обновили систему безопасности — права по ролям "
             "и ответы без входа стали аккуратнее."
@@ -32,7 +32,7 @@ _POSTS = [
         "slug": "windows-setup-1-0-8",
         "file": "blog/43-windows-setup-1-0-8.md",
         "date": "2026-09-11 15:30",
-        "title": "Windows SETUP 1.0.8: система обновления и ход установки — Nika CRM",
+        "title": "Windows SETUP 1.0.8: система обновления и ход установки — Profi CRM",
         "description": (
             "11 сентября 2026: офлайн-установщик 1.0.8 — проверка обновлений в CRM, "
             "исправленная установка Windows, демо-база без чужих данных, обновление поверх без потери базы."
@@ -44,7 +44,7 @@ _POSTS = [
         "slug": "windows-setup-1-0-7",
         "file": "blog/42-windows-setup-1-0-7.md",
         "date": "2026-09-10 22:40",
-        "title": "Windows SETUP 1.0.7 (2026-09-10): склад, касса и защита установки — Nika CRM",
+        "title": "Windows SETUP 1.0.7 (2026-09-10): склад, касса и защита установки — Profi CRM",
         "description": (
             "10 сентября 2026: офлайн-установщик 1.0.7 — категории и удаление на складе, "
             "сверка кассы, возврат чека только у администратора, защита установки."
@@ -56,7 +56,7 @@ _POSTS = [
         "slug": "warehouse-categories",
         "file": "blog/41-warehouse-categories.md",
         "date": "2026-09-10 21:20",
-        "title": "Категории склада: создать, переименовать, удалить — Nika Service CRM",
+        "title": "Категории склада: создать, переименовать, удалить — Profi Service CRM",
         "description": (
             "10 сентября 2026: категории склада создаются, переименовываются и удаляются "
             "прямо из списка товаров, без карточки номенклатуры."
@@ -68,7 +68,7 @@ _POSTS = [
         "slug": "dashboard-owner-cash",
         "file": "blog/40-dashboard-owner-cash.md",
         "date": "2026-09-01 09:00",
-        "title": "Сводный отчёт: работы, касса и цифры для руководителя — Nika Service CRM",
+        "title": "Сводный отчёт: работы, касса и цифры для руководителя — Profi Service CRM",
         "description": (
             "1 сентября 2026: в сводном отчёте разделены закрытые работы и деньги в кассе; "
             "для руководителя видно остаток после зарплаты и расходов."
@@ -80,7 +80,7 @@ _POSTS = [
         "slug": "security-runtime",
         "file": "blog/39-security-runtime.md",
         "date": "2026-08-22 14:20",
-        "title": "Обновили систему безопасности — Nika Service CRM",
+        "title": "Обновили систему безопасности — Profi Service CRM",
         "description": (
             "22 августа 2026: обновили систему безопасности — вход, загрузки "
             "и контейнер приложения."
@@ -92,7 +92,7 @@ _POSTS = [
         "slug": "order-diagnostics-templates",
         "file": "blog/38-order-diagnostics-templates.md",
         "date": "2026-08-22 13:35",
-        "title": "Шаблоны диагностики в заявке — Nika Service CRM",
+        "title": "Шаблоны диагностики в заявке — Profi Service CRM",
         "description": (
             "22 августа 2026: в окне диагностики заявки можно найти готовый текст "
             "по названию и подставить его в заключение для клиента."
@@ -104,7 +104,7 @@ _POSTS = [
         "slug": "order-customer-emails",
         "file": "blog/37-order-customer-emails.md",
         "date": "2026-08-22 12:53",
-        "title": "Письма клиенту на карточке заявки — Nika Service CRM",
+        "title": "Письма клиенту на карточке заявки — Profi Service CRM",
         "description": (
             "22 августа 2026: во вкладке История заявки видно, какие письма ушли клиенту "
             "после создания и смены статуса."
@@ -116,7 +116,7 @@ _POSTS = [
         "slug": "security-catalog-invoices",
         "file": "blog/36-security-catalog-invoices.md",
         "date": "2026-08-22 11:30",
-        "title": "Безопасность и быстрее разделы — Nika Service CRM",
+        "title": "Безопасность и быстрее разделы — Profi Service CRM",
         "description": (
             "22 августа 2026: обновили систему безопасности и ускорили заявку, "
             "клиентов, склад и настройки; в диагностике — готовые шаблоны текста."
@@ -128,7 +128,7 @@ _POSTS = [
         "slug": "diagnostics-templates-perf",
         "file": "blog/35-diagnostics-templates-perf.md",
         "date": "2026-08-20 22:20",
-        "title": "Шаблоны диагностики и быстрее разделы CRM — Nika Service CRM",
+        "title": "Шаблоны диагностики и быстрее разделы CRM — Profi Service CRM",
         "description": (
             "20 августа 2026: готовые тексты диагностики по типу и модели устройства; "
             "карточка заявки, клиенты, склад и настройки открываются быстрее."
@@ -140,7 +140,7 @@ _POSTS = [
         "slug": "shop-master-required",
         "file": "blog/34-shop-master-required.md",
         "date": "2026-08-19 22:25",
-        "title": "В магазине обязателен мастер — Nika Service CRM",
+        "title": "В магазине обязателен мастер — Profi Service CRM",
         "description": (
             "19 августа 2026: продажу в магазине нельзя провести без мастера; "
             "без исполнителя зарплата не начисляется, система показывает предупреждение."
@@ -152,7 +152,7 @@ _POSTS = [
         "slug": "diagnostics-uploads-persist",
         "file": "blog/33-diagnostics-uploads-persist.md",
         "date": "2026-08-17 16:55",
-        "title": "Фото диагностики сохраняются после обновления сервера — Nika Service CRM",
+        "title": "Фото диагностики сохраняются после обновления сервера — Profi Service CRM",
         "description": (
             "17 августа 2026: снимки из окна диагностики пишутся на постоянный диск "
             "и остаются после обновления CRM; в кабинете клиента они тоже открываются."
@@ -164,7 +164,7 @@ _POSTS = [
         "slug": "all-orders-default-in-progress",
         "file": "blog/32-all-orders-default-in-progress.md",
         "date": "2026-08-17 16:45",
-        "title": "Список заявок сразу открывается «Все в работе» — Nika Service CRM",
+        "title": "Список заявок сразу открывается «Все в работе» — Profi Service CRM",
         "description": (
             "17 августа 2026: раздел Заявки по умолчанию показывает фильтр «Все в работе», "
             "а не весь архив. Полный список — по бейджу «Все»."
@@ -176,7 +176,7 @@ _POSTS = [
         "slug": "receipt-print-guides",
         "file": "blog/31-receipt-print-guides.md",
         "date": "2026-08-16 22:50",
-        "title": "Квитанция при приёмке и где читать руководство — Nika Service CRM",
+        "title": "Квитанция при приёмке и где читать руководство — Profi Service CRM",
         "description": (
             "16 августа 2026: квитанция сразу после новой заявки, пустая предварительная "
             "стоимость не печатается; ссылки на руководство пользователя и серию 1."
@@ -188,7 +188,7 @@ _POSTS = [
         "slug": "shop-popular-checkout",
         "file": "blog/30-shop-popular-checkout.md",
         "date": "2026-08-16 16:45",
-        "title": "Быстрая продажа в магазине: частые позиции и чек — Nika Service CRM",
+        "title": "Быстрая продажа в магазине: частые позиции и чек — Profi Service CRM",
         "description": (
             "16 августа 2026: в магазине сверху частые услуги и товары, продажа на одном экране, "
             "после проведения сразу печатается товарный чек."
@@ -200,7 +200,7 @@ _POSTS = [
         "slug": "one-time-cogs-portal-catalog",
         "file": "blog/29-one-time-cogs-portal-catalog.md",
         "date": "2026-08-16 13:30",
-        "title": "Разовая себестоимость, справочники и кабинет клиента — Nika Service CRM",
+        "title": "Разовая себестоимость, справочники и кабинет клиента — Profi Service CRM",
         "description": (
             "16 августа 2026: себестоимость разового товара и услуги в кассе и отчётах, "
             "справочники по популярности и связям, в кабинете — история ремонта и профиль."
@@ -212,7 +212,7 @@ _POSTS = [
         "slug": "diagnostics-chat-toasts",
         "file": "blog/28-diagnostics-chat-toasts.md",
         "date": "2026-08-15 21:15",
-        "title": "Диагностика заявки, кабинет клиента и чат в меню — Nika Service CRM",
+        "title": "Диагностика заявки, кабинет клиента и чат в меню — Profi Service CRM",
         "description": (
             "15 августа 2026: текст диагностики до закрытия заявки, в кабинете клиента — "
             "диагностика с фото, печать чека, устройства с заявками и история платежей."
@@ -224,7 +224,7 @@ _POSTS = [
         "slug": "security-session-files",
         "file": "blog/27-security-session-files.md",
         "date": "2026-08-15 21:00",
-        "title": "Вход, сессии и файлы заявок — Nika Service CRM",
+        "title": "Вход, сессии и файлы заявок — Profi Service CRM",
         "description": (
             "15 августа 2026: понятные сообщения при лимите входа, повторный вход после простоя, "
             "файлы диагностики и кабинета только своим заявкам."
@@ -236,7 +236,7 @@ _POSTS = [
         "slug": "security-hardening",
         "file": "blog/26-security-hardening.md",
         "date": "2026-08-14 12:30",
-        "title": "Усиление входа и паролей личного кабинета — Nika Service CRM",
+        "title": "Усиление входа и паролей личного кабинета — Profi Service CRM",
         "description": (
             "14 августа 2026: общий lockout по Redis, ссылка задать пароль в письме, "
             "пароль ЛК не хранится открытым текстом, TRUSTED_HOSTS обязателен в production."
@@ -248,9 +248,9 @@ _POSTS = [
         "slug": "pwa-install-taskbar",
         "file": "blog/25-pwa-install-taskbar.md",
         "date": "2026-08-09 18:15",
-        "title": "Установка PWA и закрепление на панели задач Windows — Nika CRM",
+        "title": "Установка PWA и закрепление на панели задач Windows — Profi CRM",
         "description": (
-            "9 августа 2026: как установить Nika CRM как PWA в Chrome/Edge, закрепить "
+            "9 августа 2026: как установить Profi CRM как PWA в Chrome/Edge, закрепить "
             "на панели задач Windows и добавить на главный экран телефона."
         ),
         "heading": "PWA: установка и панель задач",
@@ -260,7 +260,7 @@ _POSTS = [
         "slug": "windows-setup-1-0-6",
         "file": "blog/24-windows-setup-1-0-6.md",
         "date": "2026-08-09 17:45",
-        "title": "Windows SETUP 1.0.6 (2026-08-09): LAN, SMTP и перезапуск службы — Nika CRM",
+        "title": "Windows SETUP 1.0.6 (2026-08-09): LAN, SMTP и перезапуск службы — Profi CRM",
         "description": (
             "9 августа 2026: офлайн-установщик 1.0.6 — LAN, SMTP без noreply@example.com, "
             "после сохранения почты перезапуск службы, плейсхолдеры «От кого», квитанции."
@@ -272,7 +272,7 @@ _POSTS = [
         "slug": "smtp-mail-setup",
         "file": "blog/22-smtp-mail-setup.md",
         "date": "2026-08-08 18:30",
-        "title": "Настройка почты SMTP: Mail.ru и поле «От кого» — Nika CRM",
+        "title": "Настройка почты SMTP: Mail.ru и поле «От кого» — Profi CRM",
         "description": (
             "8 августа 2026: как заполнить SMTP в настройках CRM, почему Mail.ru отклоняет "
             "noreply@example.com и чем логин отличается от поля «От кого»."
@@ -284,7 +284,7 @@ _POSTS = [
         "slug": "lan-access-and-receipt-fixes",
         "file": "blog/21-lan-access-and-receipt-fixes.md",
         "date": "2026-08-08 16:00",
-        "title": "LAN, квитанция и предварительная стоимость — Nika CRM",
+        "title": "LAN, квитанция и предварительная стоимость — Profi CRM",
         "description": (
             "8 августа 2026: доступ CRM из локальной сети, объединение внешнего вида и комплектации "
             "в квитанции, сохранение размера шрифта в шаблонах, поле предварительной стоимости."
@@ -296,7 +296,7 @@ _POSTS = [
         "slug": "customer-portal-login",
         "file": "blog/20-customer-portal-login.md",
         "date": "2026-08-08 12:00",
-        "title": "Клиентский портал: вход, доступ и работа — Nika CRM",
+        "title": "Клиентский портал: вход, доступ и работа — Profi CRM",
         "description": (
             "8 августа 2026: отдельный сценарий личного кабинета клиента — адрес входа, "
             "выдача пароля в CRM и разделы портала со скриншотами."
@@ -308,7 +308,7 @@ _POSTS = [
         "slug": "salary-499-abort",
         "file": "blog/19-salary-499-abort.md",
         "date": "2026-08-05 19:00",
-        "title": "Багфикс: меньше nginx 499 на Зарплате — Nika CRM",
+        "title": "Багфикс: меньше nginx 499 на Зарплате — Profi CRM",
         "description": (
             "5 августа 2026: AbortController для запросов ЗП, больше слотов gunicorn на WORK, "
             "request_time в nginx-логе для диагностики 499."
@@ -320,7 +320,7 @@ _POSTS = [
         "slug": "all-orders-light",
         "file": "blog/18-all-orders-light.md",
         "date": "2026-08-05 17:30",
-        "title": "Багфикс: лёгкий реестр заявок /all_orders — Nika CRM",
+        "title": "Багфикс: лёгкий реестр заявок /all_orders — Profi CRM",
         "description": (
             "5 августа 2026: меню статусов и контакты не дублируются в каждой строке DataTables; "
             "канбан без мёртвых data-* и лишнего запроса."
@@ -332,7 +332,7 @@ _POSTS = [
         "slug": "salary-reports-speed",
         "file": "blog/17-salary-reports-speed.md",
         "date": "2026-08-05 16:00",
-        "title": "Багфикс: быстрее Зарплата и Отчёты — Nika CRM",
+        "title": "Багфикс: быстрее Зарплата и Отчёты — Profi CRM",
         "description": (
             "5 августа 2026: лёгкие итоги ЗП без полного отчёта, отдельный /api/salary/extras, "
             "продажи и клиенты в отчётах — SQL LIMIT и агрегаты по периоду."
@@ -344,7 +344,7 @@ _POSTS = [
         "slug": "client-detail-reports-size",
         "file": "blog/16-client-detail-reports-size.md",
         "date": "2026-08-05 14:30",
-        "title": "Багфикс: лёгкая карточка клиента и отчёты без мегабайт HTML — Nika CRM",
+        "title": "Багфикс: лёгкая карточка клиента и отчёты без мегабайт HTML — Profi CRM",
         "description": (
             "5 августа 2026: карточка клиента без SSR тысяч option справочников; "
             "отчёты продаж/клиентов ограничивают таблицу, сохраняя полные итоги."
@@ -356,7 +356,7 @@ _POSTS = [
         "slug": "nav-hang-settings",
         "file": "blog/15-nav-hang-settings.md",
         "date": "2026-08-05 13:00",
-        "title": "Багфикс: меню больше не зависает при быстрых переходах — Nika CRM",
+        "title": "Багфикс: меню больше не зависает при быстрых переходах — Profi CRM",
         "description": (
             "5 августа 2026: настройки без SSR тысяч справочников устройств (~8 МБ → ~0.5 МБ), "
             "service worker network-first для HTML — быстрые клики по меню снова работают."
@@ -368,7 +368,7 @@ _POSTS = [
         "slug": "perf-salary-cash-settings",
         "file": "blog/14-perf-salary-cash-settings.md",
         "date": "2026-08-05 11:30",
-        "title": "Быстрее Касса, Отчёты, Зарплата и Настройки — Nika CRM",
+        "title": "Быстрее Касса, Отчёты, Зарплата и Настройки — Profi CRM",
         "description": (
             "5 августа 2026: лёгкий первый запрос зарплаты, кэш сводки кассы, "
             "быстрее дашборд отчётов и настройки без загрузки всей таблицы parts."
@@ -380,7 +380,7 @@ _POSTS = [
         "slug": "salary-refund-split",
         "file": "blog/13-salary-refund-split.md",
         "date": "2026-08-05 10:00",
-        "title": "Зарплата и возвраты: без двойных строк в карточке сотрудника — Nika CRM",
+        "title": "Зарплата и возвраты: без двойных строк в карточке сотрудника — Profi CRM",
         "description": (
             "5 августа 2026: разбивка начислений по оплатам больше не учитывает "
             "полностью возвращённые платежи — без «двойных» строк в /salary."
@@ -392,7 +392,7 @@ _POSTS = [
         "slug": "bugfixes-cache-salary",
         "file": "blog/12-bugfixes-cache-salary.md",
         "date": "2026-08-05 09:00",
-        "title": "Багфиксы: Redis-кэш, дашборд и смена мастера с зарплатой — Nika CRM",
+        "title": "Багфиксы: Redis-кэш, дашборд и смена мастера с зарплатой — Profi CRM",
         "description": (
             "5 августа 2026: кнопка «Сменить исполнителей» на закрытой заявке с переносом ЗП; "
             "фиксы Redis (500 на услугах, type-drift дашборда)."
@@ -404,7 +404,7 @@ _POSTS = [
         "slug": "perf-cash-mobile",
         "file": "blog/11-perf-cash-mobile.md",
         "date": "2026-07-26 18:00",
-        "title": "Производительность, касса по статьям и мобильное меню — Nika CRM",
+        "title": "Производительность, касса по статьям и мобильное меню — Profi CRM",
         "description": (
             "Redis и gunicorn multi-worker, исправление периода «Прошлый месяц», "
             "итоги кассы по статьям и выезжающее меню на телефоне."
@@ -416,7 +416,7 @@ _POSTS = [
         "slug": "invoices-blank-signs",
         "file": "blog/10-invoices-blank-signs.md",
         "date": "2026-07-29 16:00",
-        "title": "Печать счетов без подписи и печати — живая печать — Nika CRM",
+        "title": "Печать счетов без подписи и печати — живая печать — Profi CRM",
         "description": (
             "Бланк счёта, акта и накладной без электронных картинок подписи и печати "
             "для проставления живых штампов; переключатель на карточке и в предпросмотре."
@@ -428,7 +428,7 @@ _POSTS = [
         "slug": "invoices-print-ux",
         "file": "blog/09-invoices-print-ux.md",
         "date": "2026-07-28 15:00",
-        "title": "Счета B2B: печать, шаблоны и оплата без заявки — Nika CRM",
+        "title": "Счета B2B: печать, шаблоны и оплата без заявки — Profi CRM",
         "description": (
             "TinyMCE-шаблоны счёта, акта и накладной, печать A4, размеры подписи/печати, "
             "оплата без заявки в магазин и поиск телефонов 8/7/+7."
@@ -440,7 +440,7 @@ _POSTS = [
         "slug": "invoices-b2b",
         "file": "blog/08-invoices-b2b.md",
         "date": "2026-07-27 14:00",
-        "title": "Счета для юрлиц и ИП — Nika CRM",
+        "title": "Счета для юрлиц и ИП — Profi CRM",
         "description": (
             "Модуль счетов B2B: выставление из заявки, печать счёта/акта/накладной, "
             "оплата переводом и связь с закрытием заявки."
@@ -452,7 +452,7 @@ _POSTS = [
         "slug": "windows-landing-setup",
         "file": "blog/07-windows-landing-setup.md",
         "date": "2026-07-25 12:00",
-        "title": "Windows SETUP, лендинг и установка на VPS — Nika CRM",
+        "title": "Windows SETUP, лендинг и установка на VPS — Profi CRM",
         "description": "Офлайн SETUP для Windows, SEO-лендинг демо и one-shot установка на Ubuntu.",
         "heading": "Windows SETUP, лендинг и VPS",
         "teaser": "Поставить CRM проще: Windows SETUP, публичный лендинг, linux_setup / linux_upgrade.",
@@ -461,7 +461,7 @@ _POSTS = [
         "slug": "navbar-mobile",
         "file": "blog/05-navbar-mobile.md",
         "date": "2026-05-20 12:00",
-        "title": "Навбар и мобильный интерфейс — Nika CRM",
+        "title": "Навбар и мобильный интерфейс — Profi CRM",
         "description": "Главное меню с подменю и удобная работа CRM на телефоне.",
         "heading": "Навбар и мобильный UI",
         "teaser": "Единое меню разделов и адаптация под узкий экран.",
@@ -470,7 +470,7 @@ _POSTS = [
         "slug": "oss-demo-docs",
         "file": "blog/06-oss-demo-docs.md",
         "date": "2026-04-15 12:00",
-        "title": "Open Source, демо и документация на сайте — Nika CRM",
+        "title": "Open Source, демо и документация на сайте — Profi CRM",
         "description": "Публичный репозиторий, демо-VPS и руководства на /docs без GitHub.",
         "heading": "OSS, демо и документация",
         "teaser": "Живое демо, автообновление с main и встроенные руководства.",
@@ -479,7 +479,7 @@ _POSTS = [
         "slug": "staff-chat-pins-security",
         "file": "blog/04-staff-chat-pins-security.md",
         "date": "2026-04-10 12:00",
-        "title": "Чат сотрудников, pins и безопасность — Nika CRM",
+        "title": "Чат сотрудников, pins и безопасность — Profi CRM",
         "description": "Внутренний чат с Push, закрепление заявок и hardening nginx/auth.",
         "heading": "Чат, pins, безопасность",
         "teaser": "Чат в сайдбаре, Web Push, pins в реестре, защита от сканеров.",
@@ -488,7 +488,7 @@ _POSTS = [
         "slug": "postgresql-production",
         "file": "blog/03-postgresql-production.md",
         "date": "2026-03-15 12:00",
-        "title": "PostgreSQL и продакшен — Nika CRM",
+        "title": "PostgreSQL и продакшен — Profi CRM",
         "description": "Только PostgreSQL: миграции, bootstrap-дамп, бэкапы и Docker.",
         "heading": "PostgreSQL и продакшен",
         "teaser": "Рабочая БД — Postgres; SQLite не для новых установок.",
@@ -497,7 +497,7 @@ _POSTS = [
         "slug": "rbac-reports-salary",
         "file": "blog/02-rbac-reports-salary.md",
         "date": "2026-01-20 12:00",
-        "title": "Права, отчёты и зарплата — Nika CRM",
+        "title": "Права, отчёты и зарплата — Profi CRM",
         "description": "RBAC, отчёты руководителя и начисление зарплаты по заявкам.",
         "heading": "Права, отчёты, зарплата",
         "teaser": "Роли, сводные отчёты и ЗП после полной оплаты.",
@@ -506,7 +506,7 @@ _POSTS = [
         "slug": "core-orders-warehouse-cash",
         "file": "blog/01-core-orders-warehouse-cash.md",
         "date": "2026-01-10 12:00",
-        "title": "Заявки, склад и касса — ядро Nika Service CRM",
+        "title": "Заявки, склад и касса — ядро Profi Service CRM",
         "description": (
             "Серия 1: заявки, склад и касса плюс актуальные приёмка, магазин и кабинет. "
             "Ссылки на руководство пользователя и walkthrough."
@@ -604,9 +604,9 @@ def blog_index():
     return render_template(
         "marketing/blog/index.html",
         **_blog_ctx(
-            "Блог Nika CRM",
+            "Блог Profi CRM",
             "/blog",
-            "Блог Nika CRM — обновления и фичи для сервисных центров",
+            "Блог Profi CRM — обновления и фичи для сервисных центров",
             "История возможностей бесплатной CRM: заявки, склад, касса, чат, демо, счета для юрлиц.",
             posts=posts,
         ),

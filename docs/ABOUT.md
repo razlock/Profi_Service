@@ -5,7 +5,7 @@
 Работает на своём сервере или в локальной сети, без SaaS.
 
 - Живое демо: [service.nika-crm.ru](https://service.nika-crm.ru/)
-- Исходный код: [GitHub Nika-Service-CRM](https://github.com/nika-sc/Nika-Service-CRM)
+- Исходный код: [GitHub Profi-Service-CRM](https://github.com/nika-sc/Profi-Service-CRM)
 - Лицензия: MIT
 
 Автор: **Александр Смелков**, сервисный центр «Ника», Сочи.
@@ -36,23 +36,23 @@
 ### 1. Клонирование
 
 ```bash
-git clone https://github.com/nika-sc/Nika-Service-CRM.git
-cd Nika-Service-CRM
+git clone https://github.com/nika-sc/Profi-Service-CRM.git
+cd Profi-Service-CRM
 ```
 
 ### 2. Windows (офлайн SETUP)
 
 Для Windows 10/11 x64 доступен автономный установщик **1.0.8** (сборка **2026-09-11**) с PostgreSQL и службой автозапуска.  
-Ссылки: [GitHub release windows-setup-1.0.8](https://github.com/nika-sc/Nika-Service-CRM/releases/tag/windows-setup-1.0.8), зеркало на [главной демо](/#windows-setup).  
+Ссылки: [GitHub release windows-setup-1.0.8](https://github.com/nika-sc/Profi-Service-CRM/releases/tag/windows-setup-1.0.8), зеркало на [главной демо](/#windows-setup).  
 В 1.0.8: проверка обновлений в CRM, обновление поверх без потери базы. Подробности — [блог 1.0.8](/blog/windows-setup-1-0-8).
 
 После установки демо-логины (пароль `111111`): `admin`, `manager`, `master`, `viewer`.
 
 ### 3. Linux / VPS (Ubuntu)
 
-One-shot установка: [`scripts/linux_setup.sh`](https://github.com/nika-sc/Nika-Service-CRM/blob/main/scripts/linux_setup.sh) (клон → PostgreSQL → bootstrap-дамп → systemd `nikacrm`). На чистом Ubuntu достаточно скачать скрипт и запустить с `--with-nginx --harden` (см. README, раздел Ubuntu 24.04).  
-Обновление без потери данных: [`scripts/linux_upgrade.sh`](https://github.com/nika-sc/Nika-Service-CRM/blob/main/scripts/linux_upgrade.sh) — **не** используйте `linux_setup` для апгрейда.  
-Подробности: корневой [README](https://github.com/nika-sc/Nika-Service-CRM/blob/main/README.md) (раздел VPS) и [docs/DEPLOY.md](DEPLOY.md).
+One-shot установка: [`scripts/linux_setup.sh`](https://github.com/nika-sc/Profi-Service-CRM/blob/main/scripts/linux_setup.sh) (клон → PostgreSQL → bootstrap-дамп → systemd `nikacrm`). На чистом Ubuntu достаточно скачать скрипт и запустить с `--with-nginx --harden` (см. README, раздел Ubuntu 24.04).  
+Обновление без потери данных: [`scripts/linux_upgrade.sh`](https://github.com/nika-sc/Profi-Service-CRM/blob/main/scripts/linux_upgrade.sh) — **не** используйте `linux_setup` для апгрейда.  
+Подробности: корневой [README](https://github.com/nika-sc/Profi-Service-CRM/blob/main/README.md) (раздел VPS) и [docs/DEPLOY.md](DEPLOY.md).
 
 ### 4. Docker
 
@@ -62,14 +62,14 @@ cp docker/env.example .env
 docker compose up -d --build
 ```
 
-Подробности: каталог [`docker/`](https://github.com/nika-sc/Nika-Service-CRM/tree/main/docker) в репозитории.
+Подробности: каталог [`docker/`](https://github.com/nika-sc/Profi-Service-CRM/tree/main/docker) в репозитории.
 
 ### 5. Локально (разработчикам)
 
 Нужны Python 3.10+, PostgreSQL, зависимости из `requirements.txt`, файл `.env` с `DB_DRIVER=postgres` и `DATABASE_URL`.  
 Запуск: `python run.py` → обычно `http://127.0.0.1:5000`.
 
-Санитизированный bootstrap-дамп: [`database/bootstrap/`](https://github.com/nika-sc/Nika-Service-CRM/tree/main/database/bootstrap).
+Санитизированный bootstrap-дамп: [`database/bootstrap/`](https://github.com/nika-sc/Profi-Service-CRM/tree/main/database/bootstrap).
 
 ## Помощь и бесплатная установка
 

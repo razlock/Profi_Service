@@ -10,7 +10,7 @@ def test_placeholder_sender_falls_back_to_username():
     from app.services.notification_service import _resolve_sender_email
 
     app = _App(
-        MAIL_DEFAULT_SENDER='Nika CRM Demo <noreply@example.com>',
+        MAIL_DEFAULT_SENDER='Profi CRM Demo <noreply@example.com>',
         MAIL_USERNAME='nika-sc@bk.ru',
     )
     assert _resolve_sender_email(app) == 'nika-sc@bk.ru'
@@ -57,7 +57,7 @@ def test_apply_replaces_demo_sender(monkeypatch):
             'mail_use_ssl': False,
             'mail_username': 'nika-sc@bk.ru',
             'mail_password': 'x',
-            'mail_default_sender': 'Nika CRM Demo <noreply@example.com>',
+            'mail_default_sender': 'Profi CRM Demo <noreply@example.com>',
             'mail_timeout': 3,
         }),
     )

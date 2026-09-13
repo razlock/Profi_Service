@@ -1,3 +1,4 @@
+```
 # Python
 __pycache__/
 *.py[cod]
@@ -20,83 +21,148 @@ wheels/
 .installed.cfg
 *.egg
 
-# Virtual environments
+# Virtual Environment
 venv/
-env/
 ENV/
-.venv
-.venv-win/
+env.bak/
+.venv/
 
-# Database files
-*.sqlite
-*.sqlite3
-*.db-journal
-*.db-wal
-*.db-shm
-# Любые SQLite в database/ (в репозитории только bootstrap/*.sql)
-database/*.db
-# Рабочая SQLite (не коммитить; путь по умолчанию в app/config.py)
-database/service_center.db
-database/service_center.db.backup_*
-# Локальные дампы БД (крупные)
-database/backups/*.dump
-database/backups/vps_restore_plain*.sql
-database/backups/local_nikacrm*.sql
-database/backups/local_nikacrm*.dump.zip
-app/database/*.db
-
-# Environment variables
-.env
-.env.local
-.env.*.local
-
-# Cursor: кэш и локальные данные IDE; в репозиторий — только правила агента (.mdc)
-.cursor/*
-!.cursor/rules/
-!.cursor/rules/**/*.mdc
-
-# Пользовательские загрузки (могут содержать ПДн)
-uploads/
-
-# Файлы workspace редактора
-*.code-workspace
+# Testing
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
+*.tmp
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Node modules
-node_modules/
-
 # Logs
 *.log
-app.log
 
-# Backup files
-*.backup
-*.bak
+# Environment variables
+.env
+.env.local
+*.env.*
 
-# Archived / saved (удалить или исключить из проекта)
-save/
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# OWASP ZAP отчёты и локальные учётки для security-скриптов
-reports/zap/
-scripts/zap/scan_users.json
+# PyInstaller
+*.manifest
+*.spec
 
-# Windows offline installer: downloaded runtimes, wheelhouse and build output
-packaging/windows/assets/
-packaging/windows/output/
-packaging/windows/smoke-results/
-packaging/windows/NikaCRM-Smoke.wsb
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
 
-# DR off-VPS snapshots (secrets + PII dumps)
-data/database/backups/dr-snapshots/
-database/backups/dr-snapshots/
-crm_screen/
+# Translations
+*.mo
+*.pot
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Sage
+home/
+.sage/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# FastAPI
+.dockerignore
+```
