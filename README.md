@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="docs/assets/github-banner.jpg" alt="Nika Service CRM — бесплатная CRM для сервисных центров" width="920">
+  <img src="docs/assets/github-banner.jpg" alt="Profi Service CRM — бесплатная CRM для сервисных центров" width="920">
 </p>
 
-<h1 align="center">Nika Service CRM</h1>
+<h1 align="center">Profi Service CRM</h1>
 
 <p align="center">
   <strong>Бесплатная open-source CRM для сервисных центров</strong><br>
@@ -13,7 +13,7 @@
   <a href="https://www.nika-crm.ru/"><img src="https://img.shields.io/badge/Hub-nika--crm.ru-ff5a3c?style=for-the-badge" alt="Nika CRM hub"></a>
   <a href="https://service.nika-crm.ru/"><img src="https://img.shields.io/badge/Demo-Service-2bb8a6?style=for-the-badge" alt="Live demo Service"></a>
   <a href="https://firstvds.ru/?from=528402"><img src="https://img.shields.io/badge/Бесплатная%20установка-FirstVDS%20VPS-e8b86d?style=for-the-badge" alt="Free install via FirstVDS"></a>
-  <a href="https://github.com/nika-sc/Nika-Service-CRM/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-0f1c24?style=for-the-badge" alt="MIT License"></a>
+  <a href="https://github.com/nika-sc/Profi-Service-CRM/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-0f1c24?style=for-the-badge" alt="MIT License"></a>
   <a href="#установка"><img src="https://img.shields.io/badge/Stack-Flask%20%7C%20PostgreSQL-16303a?style=for-the-badge" alt="Flask PostgreSQL"></a>
 </p>
 
@@ -54,7 +54,7 @@ CRM может работать:
 
 Это **не** CRM фитнес-клуба. Абонементы, ресепшен и расписание — отдельный продукт: [Nika Fitness CRM](https://github.com/nika-sc/Nika-Fitness-CRM) · демо [fitness.nika-crm.ru](https://fitness.nika-crm.ru/). Бренд: [www.nika-crm.ru](https://www.nika-crm.ru/).
 
-Если вы заметили баг или хотите предложить улучшение, пишите на `nika-sc@bk.ru` с темой `Nika Service CRM`.  
+Если вы заметили баг или хотите предложить улучшение, пишите на `nika-sc@bk.ru` с темой `Profi Service CRM`.  
 Если нужна помощь по установке, интеграции или **переносу данных из другой CRM** — с темой `Nika-CRM Помощь по установке`.
 
 Автор: **Александр Смелков** · сервисный центр «Ника», Сочи, 2026.
@@ -62,11 +62,11 @@ CRM может работать:
 ## Репозиторий
 
 ```bash
-git clone https://github.com/nika-sc/Nika-Service-CRM.git
-cd Nika-Service-CRM
+git clone https://github.com/nika-sc/Profi-Service-CRM.git
+cd Profi-Service-CRM
 ```
 
-Публичная OSS-версия: [github.com/nika-sc/Nika-Service-CRM](https://github.com/nika-sc/Nika-Service-CRM)
+Публичная OSS-версия: [github.com/nika-sc/Profi-Service-CRM](https://github.com/nika-sc/Profi-Service-CRM)
 
 ## Содержание
 
@@ -373,8 +373,8 @@ cd Nika-Service-CRM
 
 **Скачать:**
 
-- [NikaCRM-Offline-Setup-1.0.8-x64.exe (GitHub Releases)](https://github.com/nika-sc/Nika-Service-CRM/releases/download/windows-setup-1.0.8/NikaCRM-Offline-Setup-1.0.8-x64.exe)
-- [Страница релиза `windows-setup-1.0.8`](https://github.com/nika-sc/Nika-Service-CRM/releases/tag/windows-setup-1.0.8)
+- [NikaCRM-Offline-Setup-1.0.8-x64.exe (GitHub Releases)](https://github.com/nika-sc/Profi-Service-CRM/releases/download/windows-setup-1.0.8/NikaCRM-Offline-Setup-1.0.8-x64.exe)
+- [Страница релиза `windows-setup-1.0.8`](https://github.com/nika-sc/Profi-Service-CRM/releases/tag/windows-setup-1.0.8)
 - [Зеркало на демо-сайте](https://service.nika-crm.ru/downloads/NikaCRM-Offline-Setup-1.0.8-x64.exe)
 
 SHA256 публикуется на странице релиза вместе с EXE.
@@ -514,8 +514,8 @@ ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL ON TABLES TO имя_поль
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/nika-sc/Nika-Service-CRM.git
-cd Nika-Service-CRM
+git clone https://github.com/nika-sc/Profi-Service-CRM.git
+cd Profi-Service-CRM
 ```
 
 2. Создайте виртуальное окружение:
@@ -615,7 +615,7 @@ psql -U postgres -h localhost -d nikacrm -f database/bootstrap/nikacrm_public_sa
 
 ```bash
 apt-get update && apt-get install -y curl ca-certificates
-curl -fsSL https://raw.githubusercontent.com/nika-sc/Nika-Service-CRM/main/scripts/linux_setup.sh -o /tmp/linux_setup.sh
+curl -fsSL https://raw.githubusercontent.com/nika-sc/Profi-Service-CRM/main/scripts/linux_setup.sh -o /tmp/linux_setup.sh
 sed -i 's/\r$//' /tmp/linux_setup.sh
 bash /tmp/linux_setup.sh --with-nginx --harden
 ```
@@ -625,7 +625,7 @@ bash /tmp/linux_setup.sh --with-nginx --harden
 Если репозиторий уже клонирован:
 
 ```bash
-cd /root/Nika-Service-CRM
+cd /root/Profi-Service-CRM
 sudo bash scripts/linux_setup.sh --with-nginx --harden
 ```
 
@@ -659,8 +659,8 @@ sudo DEBIAN_FRONTEND=noninteractive apt install -y \
 
 ```bash
 cd /root
-git clone https://github.com/nika-sc/Nika-Service-CRM.git
-cd Nika-Service-CRM
+git clone https://github.com/nika-sc/Profi-Service-CRM.git
+cd Profi-Service-CRM
 ```
 
 Если `git clone` с сервера запрашивает логин GitHub или падает с ошибкой доступа, репозиторий может быть **приватным** или недоступен анонимно. Варианты: [Deploy key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/managing-deploy-keys) (read-only), Personal Access Token для HTTPS, либо перенос кода с машины, где репозиторий уже есть, например:
@@ -670,15 +670,15 @@ cd Nika-Service-CRM
 git bundle create /tmp/nika-crm.bundle --all
 scp /tmp/nika-crm.bundle root@YOUR_SERVER_IP:/root/
 # на сервере
-git clone /root/nika-crm.bundle /root/Nika-Service-CRM
+git clone /root/nika-crm.bundle /root/Profi-Service-CRM
 rm -f /root/nika-crm.bundle
-cd /root/Nika-Service-CRM
+cd /root/Profi-Service-CRM
 ```
 
 #### 3. Виртуальное окружение и зависимости Python
 
 ```bash
-cd /root/Nika-Service-CRM
+cd /root/Profi-Service-CRM
 python3 -m venv venv
 ./venv/bin/pip install --upgrade pip
 ./venv/bin/pip install -r requirements.txt
@@ -693,14 +693,14 @@ python3 -m venv venv
 - импортирует `database/bootstrap/nikacrm_public_sanitized.sql`, если таблицы ещё не созданы;
 - **копирует SQL во `/tmp` перед импортом** — процесс `postgres` на Ubuntu обычно **не имеет права читать файлы из `/root`**, прямой `-f /root/.../дамп.sql` даёт `Permission denied`;
 - выдаёт права роли `nikacrm` на схему `public` **встроенным блоком GRANT** (в публичном репозитории нет каталога `save/`, файл `save/scripts/grant_app_user_after_vps_restore.sql` в OSS-клоне отсутствует);
-- создаёт `/root/Nika-Service-CRM/.env` с `SECRET_KEY`, `DB_DRIVER=postgres`, `DATABASE_URL=...`;
+- создаёт `/root/Profi-Service-CRM/.env` с `SECRET_KEY`, `DB_DRIVER=postgres`, `DATABASE_URL=...`;
 - запускает `./venv/bin/python scripts/run_migrations.py`.
 
-Запуск (из-под `root`, путь к коду по умолчанию `/root/Nika-Service-CRM`):
+Запуск (из-под `root`, путь к коду по умолчанию `/root/Profi-Service-CRM`):
 
 ```bash
 chmod +x scripts/ubuntu_2404_bootstrap.sh
-DEST=/root/Nika-Service-CRM bash scripts/ubuntu_2404_bootstrap.sh
+DEST=/root/Profi-Service-CRM bash scripts/ubuntu_2404_bootstrap.sh
 ```
 
 Скрипт рассчитан на `bash` и **Unix-переводы строк (LF)**. Если загрузили файл с Windows и видите ошибку вроде `pipefail: invalid option name`, выполните: `sed -i 's/\r$//' scripts/ubuntu_2404_bootstrap.sh`.
@@ -708,7 +708,7 @@ DEST=/root/Nika-Service-CRM bash scripts/ubuntu_2404_bootstrap.sh
 #### 5. Проверка, что приложение поднимается
 
 ```bash
-cd /root/Nika-Service-CRM
+cd /root/Profi-Service-CRM
 ./venv/bin/gunicorn --check-config -b 127.0.0.1:5000 wsgi:app
 ```
 

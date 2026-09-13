@@ -1,6 +1,6 @@
 # Автообновление демо-VPS с публичного репозитория
 
-Демо клонируется с **https://github.com/nika-sc/Nika-Service-CRM** (ветка **`main`**). Ниже — автоматическое подтягивание кода при **перезагрузке** и при **новых коммитах** на GitHub.
+Демо клонируется с **https://github.com/nika-sc/Profi-Service-CRM** (ветка **`main`**). Ниже — автоматическое подтягивание кода при **перезагрузке** и при **новых коммитах** на GitHub.
 
 ## Что ставится на сервер
 
@@ -15,10 +15,10 @@
 
 ## Установка (один раз, на демо-сервере под root)
 
-Пути по умолчанию: каталог приложения `/root/Nika-Service-CRM`, сервис `nikacrm`. При другом пути создайте `/etc/default/nikacrm-demo-sync` по образцу `etc-default-nikacrm-demo-sync.example`.
+Пути по умолчанию: каталог приложения `/root/Profi-Service-CRM`, сервис `nikacrm`. При другом пути создайте `/etc/default/nikacrm-demo-sync` по образцу `etc-default-nikacrm-demo-sync.example`.
 
 ```bash
-cd /root/Nika-Service-CRM
+cd /root/Profi-Service-CRM
 git pull origin main
 
 sudo install -m 0755 deploy/demo/nikacrm-demo-sync.sh /usr/local/sbin/nikacrm-demo-sync.sh
@@ -45,7 +45,7 @@ systemctl list-timers | grep nikacrm-demo
 
 ## Публичный репозиторий: мгновенный деплой по push
 
-1. Скопируйте `deploy/demo/github-workflows/demo-vps-deploy-on-push.yml.example` в репозиторий **Nika-Service-CRM** как `.github/workflows/demo-vps-deploy.yml`.
+1. Скопируйте `deploy/demo/github-workflows/demo-vps-deploy-on-push.yml.example` в репозиторий **Profi-Service-CRM** как `.github/workflows/demo-vps-deploy.yml`.
 2. В GitHub → **Settings → Secrets and variables → Actions** добавьте `DEMO_VPS_HOST` и `DEMO_VPS_SSH_KEY`.
 3. На сервере должен быть установлен скрипт `/usr/local/sbin/nikacrm-demo-sync.sh` (как выше).
 
@@ -60,7 +60,7 @@ systemctl list-timers | grep nikacrm-demo
 Для self-hosted (systemd + host Postgres), если нужны доп. файлы:
 
 ```bash
-cd /root/Nika-Service-CRM
+cd /root/Profi-Service-CRM
 BACKUP_MODE=host BACKUP_XZ_OPTS="-3 -T1" \
   /bin/bash scripts/backup_and_email.sh you@example.com
 ```

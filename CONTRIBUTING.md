@@ -1,4 +1,4 @@
-# Contributing to Nika-Service-CRM
+# Contributing to Profi-Service-CRM
 
 ## Getting Started
 

@@ -95,7 +95,7 @@ docker compose ps
 systemd + host Postgres (типичный self-hosted / демо):
 
 ```bash
-cd /root/Nika-Service-CRM
+cd /root/Profi-Service-CRM
 git pull --ff-only origin main
 # перезапуск по принятому на сервере способу, например:
 systemctl restart nikacrm

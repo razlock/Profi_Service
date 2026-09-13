@@ -156,7 +156,7 @@ class SettingsService:
                         d['mail_username'] = os.environ.get('MAIL_USERNAME', '')
                     if not d.get('mail_default_sender') and os.environ.get('MAIL_DEFAULT_SENDER'):
                         d['mail_default_sender'] = os.environ.get('MAIL_DEFAULT_SENDER', '')
-                    # Демо-дамп: «Nika CRM Demo <noreply@example.com>» — в форме показывать логин.
+                    # Демо-дамп: «Profi CRM Demo <noreply@example.com>» — в форме показывать логин.
                     try:
                         from email.utils import parseaddr
                         from app.services.notification_service import _is_placeholder_sender_email

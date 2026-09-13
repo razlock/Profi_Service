@@ -955,8 +955,8 @@ def settings():
                     flash(
                         'Почта (SMTP) записана в настройки и в .env. '
                         'Чтобы служба точно подхватила новые MAIL_*, перезапустите сервер '
-                        'ярлыком на рабочем столе «Nika CRM — Перезапуск службы» '
-                        '(Nika CRM — Restart service). Затем повторите тест письма.',
+                        'ярлыком на рабочем столе «Profi CRM — Перезапуск службы» '
+                        '(Profi CRM — Restart service). Затем повторите тест письма.',
                         'warning',
                     )
             elif 'automation_settings' in request.form:
