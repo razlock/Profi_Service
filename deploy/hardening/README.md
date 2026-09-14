@@ -1,4 +1,4 @@
-# Server hardening templates for Nika Service CRM
+# Server hardening templates for Profi Service CRM
 
 Used by [`scripts/linux_hardening.sh`](../../scripts/linux_hardening.sh).
 

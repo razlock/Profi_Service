@@ -4,7 +4,7 @@
 
 ### Скачать
 
-- [NikaCRM-Offline-Setup-1.0.8-x64.exe](https://github.com/nika-sc/Nika-Service-CRM/releases/download/windows-setup-1.0.8/NikaCRM-Offline-Setup-1.0.8-x64.exe)
+- [NikaCRM-Offline-Setup-1.0.8-x64.exe](https://github.com/nika-sc/Profi-Service-CRM/releases/download/windows-setup-1.0.8/NikaCRM-Offline-Setup-1.0.8-x64.exe)
 - Зеркало: https://service.nika-crm.ru/downloads/NikaCRM-Offline-Setup-1.0.8-x64.exe
 
 SHA256: `30AF88B0EB5107C41F8DFCDD460D72A9B8D56FF3EA09AA96CAD8DDDD834B02AA` (локальная сборка 2026-09-11, 407 МБ).

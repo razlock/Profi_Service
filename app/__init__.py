@@ -422,7 +422,7 @@ def create_app(config_class=Config):
         home_extra = (
             "    <image:image>\n"
             f"      <image:loc>{image_url}</image:loc>\n"
-            "      <image:title>Nika CRM — бесплатная CRM для сервисных центров</image:title>\n"
+            "      <image:title>Profi CRM — бесплатная CRM для сервисных центров</image:title>\n"
             "    </image:image>\n"
         )
         blog_xml = ""
@@ -477,7 +477,7 @@ def create_app(config_class=Config):
             "Темная тема",
         ]
         walkthrough = [
-            ("01-login.png", "Вход в демо Nika CRM"),
+            ("01-login.png", "Вход в демо Profi CRM"),
             ("02-dashboard.png", "Дашборд после входа"),
             ("03-add-order.png", "Форма новой заявки"),
             ("04-order-detail.png", "Карточка заявки"),
