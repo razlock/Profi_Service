@@ -59,19 +59,19 @@ def main() -> int:
   #dlg .ok{background:#1a73e8;color:#fff}
 </style></head><body>
 <div id="bar">
-  <span>☰</span><span style="font-size:13px">Nika CRM</span>
+  <span>☰</span><span style="font-size:13px">Profi Service</span>
   <div class="url">https://service.nika-crm.ru/</div>
   <button type="button" class="install" id="btn">Установить</button>
 </div>
 <div class="side"></div>
 <div class="app main">
-  <h1>Nika CRM</h1>
+  <h1>Profi Service</h1>
   <p class="muted">Демо · заявки, склад, касса</p>
   <div class="card">Откройте CRM по HTTPS → в Chrome/Edge нажмите <b>Установить</b> в адресной строке (или меню ⋮ → «Установить приложение…»).</div>
 </div>
 <div id="dlg"><div class="box" role="dialog">
   <h2>Установить приложение?</h2>
-  <p>Nika CRM · service.nika-crm.ru<br>Ярлык на рабочем столе и в меню «Пуск». После установки можно закрепить на панели задач Windows.</p>
+  <p>Profi Service · service.nika-crm.ru<br>Ярлык на рабочем столе и в меню «Пуск». После установки можно закрепить на панели задач Windows.</p>
   <div class="row">
     <button type="button" class="cancel" id="cancel">Отмена</button>
     <button type="button" class="ok">Установить</button>
@@ -114,12 +114,12 @@ def main() -> int:
 </style></head><body>
 <div class="desk">
   <div class="win">
-    <div class="title"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span>Nika CRM</span></div>
-    <div class="body">Nika CRM<div class="sub">Установленное PWA-приложение (режим standalone)</div></div>
+    <div class="title"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span>Profi Service</span></div>
+    <div class="body">Profi Service<div class="sub">Установленное PWA-приложение (режим standalone)</div></div>
   </div>
   <div class="task">
     <div class="ico">⊞</div>
-    <div class="ico active" title="Nika CRM">N</div>
+    <div class="ico active" title="Profi Service">N</div>
     <div class="pin">ПКМ по иконке → «Закрепить на панели задач»</div>
   </div>
 </div>
@@ -157,7 +157,7 @@ def main() -> int:
 </style></head><body>
 <div class="phone">
   <div class="urlbar">service.nika-crm.ru</div>
-  <div style="flex:1;padding:24px 16px;font-size:22px;font-weight:700">Nika CRM</div>
+  <div style="flex:1;padding:24px 16px;font-size:22px;font-weight:700">Profi Service</div>
   <div class="sheet">
     <h1>Поделиться</h1>
     <p>Chrome / Safari на телефоне</p>

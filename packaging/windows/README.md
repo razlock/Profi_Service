@@ -18,10 +18,10 @@ SHA256 is written after the EXE is built (`WINDOWS_SETUP_SHA256` in `app/version
 
 1. Download `NikaCRM-Offline-Setup-1.0.8-x64.exe` (links above).
 2. Run it as an administrator and complete the short setup wizard.
-3. Open **Nika CRM - Открыть** on the desktop.
+3. Open **Profi Service - Открыть** on the desktop.
 4. Sign in with a demo account from `database/bootstrap/README.md` and change
    the password immediately if the computer is accessible to other people.
-5. After changing SMTP in Settings, run **Nika CRM — Перезапуск службы**, then retest mail.
+5. After changing SMTP in Settings, run **Profi Service — Перезапуск службы**, then retest mail.
 
 No separate Python or PostgreSQL installation is needed. The installer:
 
@@ -38,7 +38,7 @@ Running a newer installer over an existing installation is an in-place upgrade:
 both services are stopped before files are replaced, `%ProgramData%\NikaCRM`
 (database, `.env`, logs) is reused and only pending migrations are applied.
 
-Uninstall (**Nika CRM — Удалить** in the Start menu, or Apps & features) is a
+Uninstall (**Profi Service — Удалить** in the Start menu, or Apps & features) is a
 full removal:
 
 1. `pg_dump` of `nikacrm` plus a copy of `.env` into `%ProgramData%\NikaCRM-backup`
@@ -130,7 +130,7 @@ New installs are LAN-ready by default:
 
 - `APP_HOST=0.0.0.0`
 - `TRUSTED_HOSTS=localhost,127.0.0.1,@private,<COMPUTERNAME>,...`
-- Windows Firewall inbound rule **Nika CRM (HTTP 5000)** for **Any** profile (recreated on setup/repair so older Private/Domain-only rules are upgraded; Sandbox-safe)
+- Windows Firewall inbound rule **Profi Service (HTTP 5000)** for **Any** profile (recreated on setup/repair so older Private/Domain-only rules are upgraded; Sandbox-safe)
 - `TRUSTED_HOSTS` includes `@private` so any LAN IP works without editing `.env` (app Host check + dynamic Socket.IO CORS, not a per-IP list)
 
 If an older install still opens only on this PC, run (as Administrator):
@@ -139,7 +139,7 @@ If an older install still opens only on this PC, run (as Administrator):
 powershell -NoLogo -NoProfile -ExecutionPolicy Bypass -File "$env:ProgramFiles\NikaCRM\app\packaging\windows\enable-lan-access.ps1"
 ```
 
-Or use the Start menu shortcut **Nika CRM — Доступ по сети (LAN)**.
+Or use the Start menu shortcut **Profi Service — Доступ по сети (LAN)**.
 
 **Security:** any device on the same private network can reach the CRM. Change
 demo passwords (`admin` / `111111`, …) immediately.
@@ -155,7 +155,7 @@ Show them (Administrator PowerShell):
 powershell -NoLogo -NoProfile -ExecutionPolicy Bypass -File "$env:ProgramFiles\NikaCRM\app\packaging\windows\show-db-credentials.ps1"
 ```
 
-Or Start menu: **Nika CRM — Пароль базы данных**.
+Or Start menu: **Profi Service — Пароль базы данных**.
 
 Credentials are stored in:
 

@@ -1,4 +1,4 @@
-"""Windows service entry point for the offline Nika CRM installation."""
+"""Windows service entry point for the offline Profi Service installation."""
 
 from __future__ import annotations
 
@@ -15,7 +15,7 @@ ENV_FILE = DATA_ROOT / ".env"
 
 def load_service_environment() -> None:
     if not ENV_FILE.is_file():
-        raise RuntimeError(f"Nika CRM environment file not found: {ENV_FILE}")
+        raise RuntimeError(f"Profi Service environment file not found: {ENV_FILE}")
 
     for name, value in dotenv_values(ENV_FILE).items():
         if not name or value is None:
