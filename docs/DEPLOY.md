@@ -1,4 +1,4 @@
-# Деплой Nika CRM (Docker + PostgreSQL)
+# Деплой Profi Service (Docker + PostgreSQL)
 
 Краткая инструкция для VPS. Рабочая БД — **только PostgreSQL** (`DB_DRIVER=postgres`, `DATABASE_URL`).  
 SQLite в новых сценариях не использовать.
@@ -125,7 +125,7 @@ MAIL_DEFAULT_SENDER=Название вашей компании <your@bk.ru>
 **Важно:** `MAIL_DEFAULT_SENDER` / поле «От кого» должно содержать **тот же email**, что `MAIL_USERNAME`. Демо-значение `noreply@example.com` провайдеры отклоняют (`550 not local sender`). Подробно: [USER_GUIDE § 13.5](USER_GUIDE.md#135-почта-smtp) и статья блога `smtp-mail-setup`.
 
 После ручной правки `.env` — перезапуск приложения (`docker compose up -d` / служба Windows).  
-На **Windows Offline** после сохранения почты в UI CRM тоже перезапустите службу ярлыком **«Nika CRM — Перезапуск службы»** — иначе процесс может держать старые `MAIL_*`. На Linux/Docker после сохранения в UI перезапуск обычно не нужен (процесс обновляет `os.environ`).
+На **Windows Offline** после сохранения почты в UI CRM тоже перезапустите службу ярлыком **«Profi Service — Перезапуск службы»** — иначе процесс может держать старые `MAIL_*`. На Linux/Docker после сохранения в UI перезапуск обычно не нужен (процесс обновляет `os.environ`).
 
 ## Web Push (чат сотрудников, опционально)
 

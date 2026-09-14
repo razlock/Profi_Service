@@ -105,10 +105,10 @@ def test_shortcuts_are_removed_by_wildcard():
     # Icons are created with an em dash; a hardcoded hyphen left them on the
     # desktop after uninstall.
     iss = ISS.read_text(encoding="utf-8-sig")
-    assert '"{commondesktop}\\Nika CRM*"' in iss
+    assert '"{commondesktop}\\Profi Service*"' in iss
     cleanup = CLEANUP.read_text(encoding="utf-8-sig")
-    assert "Nika CRM*" in cleanup
-    assert "Nika CRM - " not in cleanup
+    assert "Profi Service*" in cleanup
+    assert "Profi Service - " not in cleanup
 
 
 def test_uninstall_backs_up_database_before_wiping_data():

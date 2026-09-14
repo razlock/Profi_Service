@@ -40,7 +40,7 @@ def _report(out: Path, shots: list[str]) -> int:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Capture Nika CRM walkthrough screenshots")
+    parser = argparse.ArgumentParser(description="Capture Profi Service walkthrough screenshots")
     parser.add_argument("--base-url", default="http://127.0.0.1:5000")
     parser.add_argument("--user", default="admin")
     parser.add_argument("--password", default="111111")

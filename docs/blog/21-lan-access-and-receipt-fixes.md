@@ -14,13 +14,13 @@
 
 С другого устройства: `http://192.168.x.x:5000`. Демо-пароли (`111111`) смените сразу — CRM видна всей сети.
 
-Уже установленную копию чинит ярлык **Nika CRM — Доступ по сети (LAN)** или скрипт `enable-lan-access.ps1`.
+Уже установленную копию чинит ярлык **Profi Service — Доступ по сети (LAN)** или скрипт `enable-lan-access.ps1`.
 
 На Linux: `scripts/linux_setup.sh --lan` (или `--with-nginx`). В `.env` bootstrap пишет `@private`.
 
 ## Пароль PostgreSQL в Windows SETUP
 
-`111111` — только для демо-логинов CRM (`admin`, `manager`, …), не для pgAdmin. Пароли базы случайные на каждую установку. Ярлык **Nika CRM — Пароль базы данных** печатает host, port, user и пароли из `%ProgramData%\NikaCRM\installer\install-state.json`.
+`111111` — только для демо-логинов CRM (`admin`, `manager`, …), не для pgAdmin. Пароли базы случайные на каждую установку. Ярлык **Profi Service — Пароль базы данных** печатает host, port, user и пароли из `%ProgramData%\NikaCRM\installer\install-state.json`.
 
 ## Внешний вид / комплектация в квитанции
 

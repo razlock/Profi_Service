@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.nika-crm.ru/"><img src="https://img.shields.io/badge/Hub-nika--crm.ru-ff5a3c?style=for-the-badge" alt="Nika CRM hub"></a>
+  <a href="https://www.nika-crm.ru/"><img src="https://img.shields.io/badge/Hub-nika--crm.ru-ff5a3c?style=for-the-badge" alt="Profi Service hub"></a>
   <a href="https://service.nika-crm.ru/"><img src="https://img.shields.io/badge/Demo-Service-2bb8a6?style=for-the-badge" alt="Live demo Service"></a>
   <a href="https://firstvds.ru/?from=528402"><img src="https://img.shields.io/badge/Бесплатная%20установка-FirstVDS%20VPS-e8b86d?style=for-the-badge" alt="Free install via FirstVDS"></a>
   <a href="https://github.com/nika-sc/Profi-Service-CRM/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-0f1c24?style=for-the-badge" alt="MIT License"></a>
@@ -364,7 +364,7 @@ cd Profi-Service-CRM
 `NikaCRM-Offline-Setup-1.0.8-x64.exe` (**сборка 2026-09-11**).
 Он не требует интернета и автоматически устанавливает встроенные Python 3.12
 и PostgreSQL 18, импортирует очищенную демо-базу, создаёт `.env`, применяет
-миграции и регистрирует Nika CRM как службу Windows с автозапуском.
+миграции и регистрирует Profi Service как службу Windows с автозапуском.
 
 **Что нового в 1.0.8 (2026-09-11):** исправлена установка Windows (доходит до конца, живой процент на экране);
 в CRM — «О программе и обновления»; новый EXE ставится поверх без потери базы;
@@ -381,7 +381,7 @@ SHA256 публикуется на странице релиза вместе с
 
 1. Скачайте EXE по ссылке выше.
 2. Запустите установщик **от имени администратора** (права Admin обязательны). Не закрывайте окно, пока идёт настройка Python, базы и службы — обычно 5–10 минут.
-3. Откройте ярлык **Nika CRM — Открыть** на рабочем столе (`http://127.0.0.1:5000`).
+3. Откройте ярлык **Profi Service — Открыть** на рабочем столе (`http://127.0.0.1:5000`).
 4. С другого ПК в той же сети откройте `http://<IP-этого-ПК>:5000` — доступ из LAN включён по умолчанию.
 5. Войдите демо-учёткой и **смените пароль** перед реальной работой (CRM видна всей локальной сети).
 
@@ -398,27 +398,27 @@ SHA256 публикуется на странице релиза вместе с
 
 Программа устанавливается в `%ProgramFiles%\NikaCRM`, а база и журналы
 хранятся в `%ProgramData%\NikaCRM`. Обновление поверх прежней версии базу не
-трогает. Удаление (ярлык **Nika CRM — Удалить**) снимает службы и стирает
+трогает. Удаление (ярлык **Profi Service — Удалить**) снимает службы и стирает
 каталог с данными, но перед этим складывает дамп базы в
 `%ProgramData%\NikaCRM-backup` — эта папка остаётся, и следующая установка
 восстановит данные из неё.
 
 **Пароль PostgreSQL (для pgAdmin):** это **не** `111111`. Установщик генерирует
 случайные пароли. Показать их (от администратора): ярлык
-**Nika CRM — Пароль базы данных** или скрипт
+**Profi Service — Пароль базы данных** или скрипт
 `packaging\windows\show-db-credentials.ps1`. Файлы:
 `%ProgramData%\NikaCRM\installer\install-state.json` и `DATABASE_URL` в
 `%ProgramData%\NikaCRM\.env`.
 
 **Доступ по сети уже установленной копии:** ярлык
-**Nika CRM — Доступ по сети (LAN)** или `enable-lan-access.ps1`.
+**Profi Service — Доступ по сети (LAN)** или `enable-lan-access.ps1`.
 
 Диагностика:
 
 - установка: `%ProgramData%\NikaCRM\logs\setup.log`;
 - веб-служба: `%ProgramData%\NikaCRM\logs\web-stdout.log` и `web-stderr.log`;
 - статус: `Get-Service NikaCRM-Web,NikaCRM-PostgreSQL`;
-- перезапуск: ярлык **Nika CRM — Перезапустить сервис**.
+- перезапуск: ярлык **Profi Service — Перезапустить сервис**.
 
 Если занят порт `5000`, освободите его до установки. PostgreSQL автоматически
 выбирает первый свободный порт из `5432`, `55432`, `55433`. Подробности,
@@ -603,7 +603,7 @@ psql -U postgres -h localhost -d nikacrm -f database/bootstrap/nikacrm_public_sa
 - Реферальная ссылка: [https://firstvds.ru/?from=528402](https://firstvds.ru/?from=528402)
 - Промокод на скидку: **648528402**
 
-**Если купите VPS по этой ссылке и промокоду**, автор проекта (**Александр Смелков**, СЦ «Ника», Сочи) **бесплатно** установит Nika CRM и поможет с запуском и поддержкой.  
+**Если купите VPS по этой ссылке и промокоду**, автор проекта (**Александр Смелков**, СЦ «Ника», Сочи) **бесплатно** установит Profi Service и поможет с запуском и поддержкой.  
 По запросу также помогу с **переносом данных из другой CRM** (клиенты, заявки, склад и т.п. — объём и формат выгрузки согласуем по почте).  
 Напишите на [nika-sc@bk.ru](mailto:nika-sc@bk.ru?subject=Nika-CRM%20%D0%9F%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%20%D0%BF%D0%BE%20%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B5) с темой письма **Nika-CRM Помощь по установке** и укажите, что сервер куплен через реферал FirstVDS (и нужна ли миграция данных).
 

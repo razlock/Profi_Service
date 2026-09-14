@@ -1,6 +1,6 @@
 ## Windows Offline SETUP 1.0.8 (2026-09-11)
 
-Автономный установщик Nika CRM для Windows 10/11 x64.
+Автономный установщик Profi Service для Windows 10/11 x64.
 
 ### Скачать
 
